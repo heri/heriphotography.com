@@ -1,0 +1,387 @@
+nav#main-nav .nav-logo img {
+	max-width: 100%;
+	height: auto;
+}
+
+nav#main-nav ul li.active a,
+nav#main-nav ul li.current_page_item a {
+	background: rgba(0,0,0,0.2);
+	box-shadow: inset 0 -1px rgba(0,0,0,0);
+	color: #fff;
+	text-decoration: none;
+}
+
+nav#main-nav ul li.active a i
+nav#main-nav ul li.current_page_item a i {
+	color: #5aa9ce;
+}
+
+.social-nav {
+	max-height: 50px;
+	text-align: center;
+	right: 0;
+}
+
+.social-nav div {
+	display: inline-block;
+}
+
+.social-nav a.google-plus:hover {
+	background: #c63d2d !important;
+}
+
+.response-message {
+	display: none;
+}
+
+.home-first-section {
+	position: relative;
+	height: auto;
+	text-align: center;
+	overflow: hidden;
+	height: 500px;
+	background: rgba(0,0,0,0.3);
+}
+
+.video-background .home-first-section {
+	background: rgba(0,0,0,0.4);
+}
+
+.home-first-section #logo {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.home-first-section.fullscreen .home-slider {
+	margin-top: 280px;
+}
+
+.page-section {
+	padding: 30px 0 20px;
+}
+
+.shortcode-number {
+	padding-top: 0px;
+}
+
+
+
+.empty-space {
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	padding: 100px 0 100px 0;
+	min-height: 300px;
+	height: auto;
+}
+
+.empty-space .section-pre-title {
+	color: #999999;
+}
+
+.empty-space .section-title {
+	color: #ffffff;
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+
+.empty-space .has-icon .section-title {
+	margin-bottom: 40px;
+}
+
+.empty-space .section-icon {
+	background: url(../images/background-title-white.png) left center repeat-x;
+}
+
+.empty-space .section-icon i {
+	background: transparent;
+	color: #fff;
+}
+
+.shortcode-service {
+	margin-top: 30px;
+}
+
+.shortcode-service.service h4 {
+	text-transform: uppercase;
+	color: #292929;
+}
+
+.shortcode-service.service p {
+	font-size: 16px;
+	line-height: 26px;
+	font-style: italic;
+	padding: 0;
+}
+
+.testimonials-slider ul.slides p {
+	color: #ffffff;
+	font-size: 26px;
+	line-height: 40px;
+	font-weight: 300;
+	margin-bottom: 0px;
+	font-style: italic;
+	padding: 30px 40px 0 40px;
+}
+
+.client-logo img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+.page-clients {
+	padding: 30px 0;
+	background: #5aa9ce;
+}
+
+.page-clients .client-logo img {
+	margin: 0 auto;
+	opacity: 1;
+	-webkit-transition: opacity .3s ease;
+	   -moz-transition: opacity .3s ease;
+	    -ms-transition: opacity .3s ease;
+	     -o-transition: opacity .3s ease;
+	        transition: opacity .3s ease;
+}
+
+.page-clients .client-logo img:hover {
+	opacity: .5;
+}
+
+.page-clients .client-logo.fade-me img {
+	opacity: .2;
+}
+
+.page-clients .client-logo a.client-active img:hover {
+	opacity: 1;
+}
+
+.page-clients .client-logo.fade-me img:hover {
+	opacity: .4;
+}
+
+.page-clients .client-description {
+	margin: 30px 0;
+	display: none;
+}
+
+.page-clients .client-description p {
+	text-align: left;
+	font-size: 16px;
+	line-height: 26px;
+	color: #ffffff;
+	padding: 0px;
+}
+
+.page-clients .client-disabled a {
+	cursor: default;
+}
+
+.page-clients .client-logo.client-disabled img:hover {
+	opacity: 1;
+}
+
+.page-clients .client-logo.client-disabled.fade-me img:hover {
+	opacity: .2;
+}
+
+.team-member {
+	padding-top: 30px;
+}
+
+.team-member .image-container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.team-member img {
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.3s;
+	   -moz-transition: -moz-transform 0.4s, opacity 0.3s;
+	        transition: transform 0.4s, opacity 0.3s;
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.team-member:hover img {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	margin: 0 auto;
+}
+
+.team-member h4 {
+	color: #292929;
+	font-style: normal;
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+
+.team-member h5 {
+	color: #5aa9ce;
+	font-style: italic;
+}
+
+form#newsletter-form {
+
+}
+
+form#newsletter-form #newsletter-name {
+	width: 275px;
+}
+
+form#newsletter-form #newsletter-submit {
+	margin-left: 10px;
+}
+
+form#newsletter-form p.form-message {
+	color: #00baff;
+	margin-top: 30px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 0.20em;
+	font-weight: 300;
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+form#newsletter-form input {
+	margin-bottom: 0px;
+}
+
+form#newsletter-form input[type="text"] {
+	background: #f0f0f0;
+	color: #959595;
+}
+
+#newsletter-form input::-webkit-input-placeholder, #newsletter-form textarea::-webkit-input-placeholder { color: #b0b0b0; }
+
+#newsletter-form input:-moz-placeholder, #newsletter-form textarea:-moz-placeholder { color: #b0b0b0; }
+
+#newsletter-form input.placeholder, #newsletter-form textarea.placeholder { color: #b0b0b0; }
+
+#newsletter-form input:hover, #newsletter-form input:focus {
+	background: #5aa9ce;
+	color: #ffffff !important;
+}
+
+.portfolio-item img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+body.single-project #project-page {
+	background: #ffffff;
+}
+
+body.single-project #project-page h3 {
+	color: #111111;
+}
+
+body.single-project #project-page p {
+	color: #555555;
+}
+
+body.single-project #project-page .button {
+	color: #333333 !important;
+}
+
+body.single-project #project-page .flex-control-paging li a {
+	background: rgba(0,0,0,0.2);
+	box-shadow: none;
+}
+
+body.single-project #project-page .flex-control-paging li a:hover {
+	background: rgba(0,0,0,0.5);
+}
+
+.extended-portfolio .project-content {
+	overflow: hidden;
+}
+
+input[type='submit']:focus {
+	color: #fff;
+}
+
+#footer .contact-form .error {
+	border: 2px solid #e81752;
+}
+
+.sticky h2 {
+	/*text-decoration: underline;*/
+}
+
+#footer {
+	background-color:rgb(65,65,65);
+	background-color: rgba(0,0,0,0.8);
+}
+
+.testimonials-slider .slides > li{
+	margin-left:0;
+}
+
+.flex-control-paging li a.flex-active,
+#project-page .flex-control-paging li a.flex-active {
+	background: #5aa9ce;
+}
+
+.widget{
+	clear:both;
+}
+
+.widget_tag_cloud .tagcloud{
+	overflow:hidden;
+}
+
+
+.pe-wp-default input[type=password]{
+	background: #f0f0f0;
+	color: #959595;
+}
+
+div.post .post-title h2{
+	max-width:698px;
+}
+
+.commentlist .reply a:hover{
+	background:#5aa9ce !important;
+}
+
+.sticky .post-title h2 a{
+	background:#5aa9ce;
+	color:#fff;
+	text-decoration: none;
+	padding:0 10px;
+}
+
+.sticky .post-title h2 a:hover{
+	background:#fff;
+	color:#5aa9ce;
+}
+
+.flexslider .slides img {
+	height: auto;
+}
+
+.image-container img {
+	max-width: 100%;
+	height: auto;
+}
+
+.flex-control-nav {
+	z-index: 99;
+}
+
+@media (max-width:470px) {
+
+	.section-title {
+		font-size: 40px;
+	}
+
+}

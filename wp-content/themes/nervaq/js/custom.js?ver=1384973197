@@ -1,0 +1,44 @@
+(function( $ ) {
+
+	"use strict";
+
+	var $body = $( 'body' ),
+		$window = $( window ),
+		$ie8 = $( 'html' ).hasClass( 'ie8' );
+
+	$(function() {
+
+		if ( $( '.peThemeContactForm' ).length > 0 ) {
+
+			$( '.peThemeContactForm' ).peThemeContactForm();
+
+		}
+
+		var $comments_wrap = $( '#comments' );
+
+		if ( $comments_wrap.length < 0 )
+			return;
+
+		$comments_wrap.find( '.span1' ).addClass( 'col-md-1' ).removeClass( 'span1' );
+		$comments_wrap.find( '.span11' ).addClass( 'col-md-11' ).removeClass( 'span11' );
+		$comments_wrap.find( '.span12' ).addClass( 'col-md-12' ).removeClass( 'span12' );
+		$comments_wrap.find( '.row-fluid' ).addClass( 'row' ).removeClass( 'row-fluid' );
+		$comments_wrap.find( '.pe-offset1' ).addClass( 'col-md-offset-1' ).removeClass( 'pe-offset1' );
+
+		$comments_wrap.after( '<hr class="hidden-md hidden-lg">' );
+
+		if ( $ie8 ) {
+
+			$( '.team-member img, .portfolio .portfolio-item img' ).removeAttr( 'height width' );
+
+		}
+
+	});
+
+	$window.load( function() {
+
+		$window.trigger( 'scroll' );
+
+	});
+
+})(jQuery);

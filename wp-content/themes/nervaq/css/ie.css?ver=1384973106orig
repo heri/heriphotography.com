@@ -1,0 +1,29 @@
+.ie8 #testimonials,
+.ie8 #join {
+	background: url(../images/background-pattern.png);
+}
+
+.ie8 #footer{
+	background-color:rgb(43,43,43);
+}
+
+.ie8 .extended-portfolio {
+	background: #323232;
+}
+
+.ie8 nav#main-nav ul li.active a, .ie8 nav#main-nav ul li.current_page_item a {
+	background: #282828;
+}
+
+
+.ie8 nav#main-nav ul li a:hover{
+	background: #282828;
+}
+
+.ie8 .nav-trigger {
+	background: #CBCBCB;
+}
+
+.ie8 .nav-trigger:hover {
+	background: #656565;
+}
