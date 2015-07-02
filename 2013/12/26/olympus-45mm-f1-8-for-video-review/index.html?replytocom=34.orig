@@ -40,8 +40,8 @@
 <link rel='stylesheet' id='pe_theme_init-css'  href='http://heriphotography.com/wp-content/themes/nervaq/style.css?ver=1391009814' type='text/css' media='all' />
 <link rel='stylesheet' id='really_simple_share_style-css'  href='http://heriphotography.com/wp-content/plugins/really-simple-facebook-twitter-share-buttons/style.css?ver=3.8.8' type='text/css' media='all' />
 <script type='text/javascript' src='http://heriphotography.com/wp-includes/js/comment-reply.min.js?ver=3.8.8'></script>
-<script type='text/javascript' src='http://heriphotography.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
-<script type='text/javascript' src='http://heriphotography.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type='text/javascript' src='http://code.jquery.com/jquery-migrate-1.2.1.js'></script>
 <script type='text/javascript' src='http://heriphotography.com/wp-content/themes/nervaq/framework/js/selectivizr-min.js?ver=1384973155'></script>
 <script type='text/javascript' src='http://heriphotography.com/wp-includes/js/json2.min.js?ver=2011-02-23'></script>
 <script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?sensor=false&#038;ver=3.8.8'></script>
@@ -489,7 +489,7 @@ Footer
 			
 				<div class="col-sm-4 text-center animated" data-animation="flipInY">
 					<i class="fa fa-phone"></i>
-					<p>5146600163</p>
+					<p>514-804-8608</p>
 				</div> <!-- End Column 4 -->
 
 			
@@ -516,7 +516,7 @@ Footer
 <div id="wufoo-z1usopoz0az0rf3">
 Fill out my <a href="https://heri.wufoo.com/forms/z1usopoz0az0rf3">online form</a>.
 </div>
-<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"> powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
 <script type="text/javascript">var z1usopoz0az0rf3;(function(d, t) {
 var s = d.createElement(t), options = {
 'userName':'heri',
